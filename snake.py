@@ -79,6 +79,9 @@ while run:
             if event.key == pygame.K_s:
                 if ((stage != "game") and (p == False)):
                     stage = "game"
+                    pygame.mixer.init()
+                    pygame.mixer.music.load("music.wav")
+                    pygame.mixer.music.play(-1)
     screen.fill((255, 255, 255))
     if stage == "menu":
         napisz("Snake Wizard | Made by Adam Wasiak | Press s, to start.", 0, 0, 20)
@@ -117,6 +120,7 @@ while run:
         xd.dash()
         if(xd.shape.colliderect(snake.ksztalt) and areyou == False):
             stage = "end"
+            pygame.mixer.music.stop()
             p = True
         elif(xd.shape.colliderect(snake.ksztalt) and areyou == True):
             areyou = False

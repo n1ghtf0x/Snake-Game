@@ -4,13 +4,14 @@
 
 This program was made by me completely from scratch. I did not use any ideas or code from other people.
 Characters were also painted by me.
+I also made music myself using BoscaCeoil.
 Gmail adress to contact with me: developeradamw@gmail.com
 
 </br>
 
 ### Warning
 <br/>
-This program works only with third Python version, installed requirements and set file placement (png files need to be with py file in one folder)!
+This program works only with third Python version, installed requirements and set file placement (wav file and png files need to be with py file in one folder)!
 <br />
 
 ### Instructions
@@ -18,7 +19,7 @@ This program works only with third Python version, installed requirements and se
 <br />
 Your aim is to survive as long as possible by escaping dangerous fireball.
 <br />
-Fisrt go to the folder named with snake.py and images and execute command:
+Fisrt go to the folder named with snake.py, images, music and execute command:
 <br />
 pip install -r requirements.txt
 <br />
